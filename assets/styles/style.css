@@ -25,13 +25,16 @@ p {
     height: 300px;
 }
 
-.item {
-    width: 260px;
-    height: 100%;
-}
+
 
 .more-info-text {
     text-align: justify;
 }
 
-
+.cell {
+    width: calc(100% / 3);
+    height: 200px;
+}
+.item {
+    height: 100%;
+}
